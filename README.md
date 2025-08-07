@@ -726,13 +726,6 @@
         border-radius: 3px;
         font-family: monospace;
     }
-    .map-btn {
-    background: #34A853; /* Google Maps green color */
-}
-
-.map-btn .tooltip {
-    white-space: nowrap;
-}
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -741,8 +734,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo"> 
-                    <span>TTaxEase Legal (By Anurag)</span>
+                <a href="#" class="logo">
+                    <img src="https://via.placeholder.com/40x40?text=NS" alt="Logo">
+                    <span>TaxEase Legal (By Anurag)</span>
                 </a>
                 <button class="mobile-menu-btn">
                     <i class="fas fa-bars"></i>
@@ -764,7 +758,7 @@
             <div class="hero-content">
                 <h1>Expert GST & Income Tax Services</h1>
                 <p>Professional accounting solutions for businesses and individuals. Trusted by clients for GST filing, income tax preparation, and financial compliance.</p>
-                <a href="#appointment" class="btn btn-accent">Book Consultation</a>
+                <a href="#appointment" class="btn btn-accent">Book Free Consultation</a>
             </div>
         </div>
     </section>
@@ -834,8 +828,8 @@
             <h2 class="section-title">About Our Firm</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>TTaxEase Legal (By Anurag)</h3>
-                    <p>Founded in 2010, TaxEase Legal (By Anurag) has grown to become a trusted name in taxation and financial services. Our firm specializes in providing comprehensive GST, income tax, and accounting solutions to businesses of all sizes.</p>
+                    <h3>TaxEase Legal (By Anurag)</h3>
+                    <p>Founded in 2010, TaxEase Legal has grown to become a trusted name in taxation and financial services. Our firm specializes in providing comprehensive GST, income tax, and accounting solutions to businesses of all sizes.</p>
                     <p>With a team of qualified professionals, we combine technical expertise with personalized service to ensure our clients remain compliant while optimizing their financial position. Our approach focuses on understanding each client's unique needs and delivering tailored solutions.</p>
                     <p>We stay updated with the latest changes in tax laws and accounting standards to provide accurate and timely advice. Whether you're a startup needing GST registration or an established business requiring complex tax planning, we have the knowledge and experience to guide you.</p>
                     <a href="#appointment" class="btn">Consult With Us</a>
@@ -865,14 +859,9 @@
                         </div>
                         
                         <div class="form-group">
-                           <label for="appointmentPhone">Phone Number <span class="required">*</span></label>
-                           <input type="tel" id="appointmentPhone" name="phone" 
-                            pattern="[0-9]{10}" 
-                            title="Please enter a 10-digit phone number (without +91)"
-                            maxlength="10"
-                            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,10)"
-                            required>
-                       </div>  
+                            <label for="appointmentPhone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="appointmentPhone" name="phone" required>
+                        </div>
                         
                         <div class="form-group">
                             <label for="appointmentService">Service Type <span class="required">*</span></label>
@@ -947,7 +936,7 @@
                     </ul>
                     
                     <h3>Need Immediate Help?</h3>
-                    <p>For urgent matters outside office hours, please call us at <strong>+91 82796 85059</strong> or email <strong>taxeasylegalbyanurag@gmail.com</strong></p>
+                    <p>For urgent matters outside office hours, please call us at <strong>+91 82796 85059</strong> or email <strong>support@TaxEaseLegal.com</strong></p>
                 </div>
             </div>
         </div>
@@ -959,7 +948,7 @@
             <h2 class="section-title">Client Testimonials</h2>
             <div class="testimonial-grid">
                 <div class="testimonial-card">
-                    <p class="testimonial-text">NTTaxEase Legal (By Anurag) has been handling our GST filings for the past 3 years. Their team is professional, knowledgeable, and always available to answer our queries. Highly recommended!</p>
+                    <p class="testimonial-text">TaxEase Legal (By Anurag) has been handling our GST filings for the past 3 years. Their team is professional, knowledgeable, and always available to answer our queries. Highly recommended!</p>
                     <div class="testimonial-author">
                         <div class="author-img">
                             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul Sharma">
@@ -1008,7 +997,6 @@
             <i class="fas fa-phone-alt"></i>
             <span class="tooltip">Call Now</span>
         </a>
-      
     </div>
 
     <!-- Contact Section -->
@@ -1018,14 +1006,15 @@
             <div class="contact-grid">
                 <div class="contact-card">
                     <div class="contact-icon">
-                       
-                </div>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    
                 <div class="contact-card">
                     <div class="contact-icon">
                         <i class="fas fa-phone-alt"></i>
                     </div>
                     <h3>Phone</h3>
-                    <p>+91 82796 5059<br> </p>
+                    <p>+91 82796 85059</p>
                     <p>Mon-Sat: 9:30 AM - 6:30 PM</p>
                 </div>
                 <div class="contact-card">
@@ -1033,7 +1022,7 @@
                         <i class="fas fa-envelope"></i>
                     </div>
                     <h3>Email</h3>
-                    <p>taxeasylegalbyanurag@gmail.com<br>support@taxeasylegalbyanurag@gmail.com</p>
+                    <p>taxeaselegalbyanurag@gmail.com<br>support@TaxEaseLegal.com</p>
                 </div>
             </div>
         </div>
@@ -1044,7 +1033,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>TTaxEase Legal (By Anurag)</h3>
+                    <h3>TaxEase Legal</h3>
                     <p>Professional GST, Income Tax, and Accounting services for businesses and individuals. Your trusted financial partner.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1063,7 +1052,7 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
+                <div class
                                 <div class="footer-column">
                     <h3>Services</h3>
                     <ul>
@@ -1084,7 +1073,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 TTaxEase Legal (By Anurag). All Rights Reserved.</p>
+                <p>&copy; 2023 TaxEase Legal (By Anurag). All Rights Reserved.</p>
             </div>
         </div>
     </footer>
